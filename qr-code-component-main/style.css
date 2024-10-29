@@ -1,0 +1,67 @@
+:root {
+    /* Color variables */
+    --slate-900:  #1F314F;
+    --slate-500: #68778D;
+    --slate-300: #D5E1EF;
+    --white: #FFFFFF;
+
+    /* Typography variables */
+    --text-preset-1: 700 22px/120% "Outfit", sans-serif;
+    --text-preset-1-spacing: 0;
+    --text-preset-2: 400 15px/140% "Outfit", sans-serif;
+    --text-preset-2-spacing: 0.2px;
+}
+/* Let us start from the mobile first approach */
+body {
+    background-color: var(--slate-300);
+    display:grid;
+    place-items:center;
+    gap:1.5rem;
+    margin:0;
+    min-height:100vh;
+    
+}
+#content {
+    background-color: var(--white);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+    padding: 16px 16px 40px 16px;
+    max-width:16rem;
+    height:31.25rem;
+    display:grid;
+    grid-template-rows:auto auto;
+    gap:1.5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+}
+#qr-code {
+    max-width: 100%;
+    border-radius:10px;
+    
+}
+#text-container {
+    display:grid;
+    gap:1rem;
+}
+#text-container h1 {
+    font: var(--text-preset-1);
+    word-spacing: var(--text-preset-1-spacing);
+    margin:0;
+}
+#text-container p {
+    font: var(--text-preset-2);
+    word-spacing: var(--text-preset-2-spacing);
+    margin:0;
+}
+@media (min-width: 768px) {
+    
+    body {
+        overflow: hidden;
+    }
+    #content {
+        max-width: 20rem;
+    }
+    
+    
+}
+
+
