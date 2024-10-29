@@ -27,8 +27,8 @@ In this project a card element is created which contains a QR code image and tex
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Link](https://github.com/Taresta/QR-code-component.git)
+- Live Site URL: [Live site](https://taresta.github.io/QR-code-component/)
 
 ## My process
 
